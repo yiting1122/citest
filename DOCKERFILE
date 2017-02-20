@@ -4,7 +4,7 @@ COPY ./ /srv/www
 
 WORKDIR /srv/www
 
-#base installed cnpm
+#base installed cnpm  yiting
 #RUN npm install -g cnpm --registry=https://r.cnpmjs.org
 
 RUN cnpm install -d
